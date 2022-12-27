@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Clock -->
+        <div id="clock">00:00:00 PM</div>
+        
+        <!-- Container with links
+        
+        formatting of links:
+            <ul>
+                <li>
+                    <icon></icon>
+                    <link></link>
+                </li>
+            </ul> -->
+        <nav class="nav">
+            
+            <!-- First block of links -->
+            <div>
+                <p class="title">Search Engines:</p> 
+                <hr>
+                <ul class="list">
+                    <li>
+                        <img src="assets/duckduckgo.ico" class="icon">
+                        <a href="https://start.duckduckgo.com">DuckDuckGo</a>
+                    </li>
+                    <li>
+                        <img src="assets/google_chrome.ico" class="icon">
+                        <a href="https://google.com">Google</a>
+                    </li>
+                    <li>
+                        <img src="assets/yandex.ico" class="icon"> 
+                        <a href="https://ya.ru">Yandex</a>
+                    </li>
+                </ul>
+            </div>
+           
+            <!-- Second block of links -->
+            <div>
+                <p class="title">Important Links:</p>
+                <hr>
+                <ul class="list">
+                    <li>
+                        <img src="assets/school.ico" class="icon">
+                        <a href="https://academy.mob-edu.ru/ui/#/">Academy</a>
+                    </li>
+                    <li>
+                        <img src="assets/interface_edit.ico" class="icon">
+                        <a href="https://leader-id.ru/login?ref=2035">Leader ID</a>
+                    </li>
+                    <li>
+                        <img src="assets/journal_album.ico" class="icon">
+                        <a href="https://sgo.rso23.ru/angular/school/announcements/">SGO</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Third block of links -->
+            <div>
+                <p class="title">Media Services:</p>
+                <hr>
+                <ul class="list">
+                    <li>
+                        <img src="assets/youtube.ico" class="icon">
+                        <a href="https://www.youtube.com">YouTube</a>
+                    </li>
+                    <li>
+                        <img src="assets/playcircle.ico" class="icon">
+                        <a href="https://music.youtube.com">Music</a>
+                    </li>
+                    <li>
+                        <img src="assets/twitch.ico" class="icon">
+                        <a href="https://www.twitch.tv">Twitch</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+
+    <style>
+        body, html {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background-color: #161b22;
+            font-family: "Cascadia Code";
+        }
+
+        .title {
+            margin: 10px 0 0 40px;
+            color: white;
+        }
+
+        li {
+            display: flex;
+            text-align: center;
+        }
+
+        .icon {
+            margin: 0 5px 5px 0; 
+            width: 18px;}
+
+        hr {
+            padding: 0;
+            margin: 0 0 0 40px;
+        }
+
+        .nav {display: flex;}
+
+        .container {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        
+        .list {
+            display: inline-block; 
+            list-style: none; 
+            color:white;
+        }
+
+        a {
+
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            color: grey;
+            text-decoration: underline;
+        }
+        a:active{color: lightgrey;}
+
+        #clock {
+            font-size: 40pt;
+            color: #5b2be7;
+            text-align: center;
+        }
+
+    </style>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
