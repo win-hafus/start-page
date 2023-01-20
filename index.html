@@ -3,81 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="css/style.css"> 
   <title>Hub</title>
 </head>
 <body>
   <div class="container">
-    <div id="clock"></div>
-    <nav class="nav">
-
-     <div class="nav__head">Search engine</div>
-      <hr>
-     <div class="nav__head">Important links</div>
-      <hr>
-     <div class="nav__head">Media services</div> 
-
-     <!-- First Column -->
-      <div class="nav__item">
-        <img src="assets/duckduckgo.ico" class="nav__item_icon">
-        <a href="https://start.duckduckgo.com">DuckDuckGo</a>
-      </div>
-      <hr>
- 
-      <!-- Second Column -->
-      <div class="nav__item">
-        <img src="assets/school.ico" class="nav__item_icon">
-        <a href="https://academy.mob-edu.ru/ui/#/">Academy</a>
-      </div>
-      <hr>
-    
-      <!-- Third Column -->
-      <div class="nav__item">
-        <img src="assets/youtube.ico" class="nav__item_icon">
-        <a href="https://www.youtube.com">YouTube</a>
-      </div>
-
-      <!-- First Column -->
-      <div class="nav__item">
-        <img src="assets/google_chrome.ico" class="nav__item_icon">
-        <a href="https://google.com">Google</a>
-      </div>
-      <hr>
-
-      <!-- Second Column -->
-      <div class="nav__item">
-        <img src="assets/interface_edit.ico" class="nav__item_icon">
-        <a href="https://leader-id.ru/login?ref=2035">LeaderID</a>
-      </div>
-      <hr>
-
-      <!-- Third Column -->
-      <div class="nav__item">
-        <img src="assets/playcircle.ico" class="nav__item_icon">
-        <a href="https://music.youtube.com">Music</a>
-      </div>
-
-      <!-- First Column -->
-      <div class="nav__item">
-        <img src="assets/yandex.ico" class="nav__item_icon"> 
-        <a href="https://ya.ru">Yandex</a>
-      </div>
-      <hr>
+    <header id="clock"></header>
+    <main class="nav">
+      <div class="fisrt">
+        <div class="nav__head">Search engine</div>
       
-      <!-- Second Column -->
-      <div class="nav__item">
-        <img src="assets/journal_album.ico" class="nav__item_icon">
-        <a href="https://sgo.rso23.ru/angular/school/announcements/">SGO</a>
-      </div>
-      <hr>
+        <div class="nav__item">
+          <img class="nav__item-icon" src="assets/duckduckgo.ico">
+          <a class="nav__item-link" href="https://start.duckduckgo.com">DuckDuckGo</a>
+        </div>
+
+
+        <div class="nav__item">
+          <img class="nav__item-icon" src="assets/google_chrome.ico">
+          <a class="nav__item-link" href="https://google.com">Google</a>
+        </div>
+
+
+        <div class="nav__item">
+          <img class="nav__item-icon" src="assets/yandex.ico"> 
+          <a class="nav__item-link" href="https://ya.ru">Yandex</a>
+        </div>
+      </div><hr>
+
+        <div class="second">
+          <div class="nav__head">Important Links</div>  
+
+        <div class="nav__item">
+          <img class="nav__item-icon" src="assets/school.ico">
+          <a class="nav__item-link" href="https://academy.mob-edu.ru/ui/#/">Academy</a>
+        </div>
       
-      <!-- Third Column -->
-      <div class="nav__item">
-        <img src="assets/twitch.ico" class="nav__item_icon">
-        <a href="https://www.twitch.tv">Twitch</a>
+        <div class="nav__item">
+          <img class="nav__item-icon" src="assets/interface_edit.ico">
+          <a class="nav__item-link" href="https://leader-id.ru/login?ref=2035">LeaderID</a>
+        </div>
+      
+     
+        <div class="nav__item">
+          <img class="nav__item-icon" src="assets/journal_album.ico">
+          <a class="nav__item-link" href="https://sgo.rso23.ru/angular/school/announcements/">SGO</a>
+        </div>
+      </div><hr>
+
+      <div class="third">
+        <div class="nav__head">Media services</div>
+      
+        <div class="nav__item">
+          <img class="nav__item-icon" src="assets/youtube.ico">
+          <a class="nav__item-link" href="https://www.youtube.com">YouTube</a>
+        </div>
+
+        <div class="nav__item">
+          <img class="nav__item-icon" src="assets/playcircle.ico">
+          <a class="nav__item-link" href="https://music.youtube.com">Music</a>
+        </div>
+
+        <div class="nav__item">
+          <img class="nav__item-icon" src="assets/twitch.ico">
+          <a class="nav__item-link" href="https://www.twitch.tv">Twitch</a>
+        </div>
       </div>
-    </nav>
+    </main>
   </div>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
