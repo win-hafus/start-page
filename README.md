@@ -11,7 +11,7 @@ Open Microsoft Edge, select "Settings" and more "Settings" .
 
 Select "Appearance".
 
-Turn on "Show home button".
+Turn on `Show home button`.
 
 You can either choose "New tab page" or select "Enter URL for a page" that you want to use as your home page.
 
