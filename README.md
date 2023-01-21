@@ -7,6 +7,7 @@ I use qutrbrowser so there's no search bar, but for you i add links with search 
 ## How install to MS Edge
 Open Microsoft Edge, select "Settings" and more "Settings" .
 Select "Appearance".
+
 Turn on "Show home button".
 You can either choose "New tab page" or select "Enter URL for a page" that you want to use as your home page.
 
