@@ -1,10 +1,9 @@
 # Description
-this is start page of browser, with minimum elements. Here is everything I use.
+This is start page of browser, with minimum elements. Everything here I use.
 
-But you can change links in `index.html`.
+If you want change links, change tags with class `nav__item`.
 
-I use qutrbrowser so there's no search bar, but for you i add links with search engines.
-
+I use qutrbrowser so there's no search bar, and I add links to famous search engines. Open links and write
 
 ## How install in **MS Edge**
 Open Microsoft Edge, select `Settings` and more `Settings` .
@@ -34,6 +33,6 @@ Choose the option you prefer: `Firefox Home (Default)`, `Custom URLs`, or `Blank
 ## How install in **QuteBrowser**
 Press `Ss` (open settings)
 
-Press `/` and type `start page`
+Press `/` and type `url.default_page` and `url.start_pages`
 
-Paste Url to html file
+Paste Url (file:///) to html file 
