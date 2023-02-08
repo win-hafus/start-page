@@ -1,5 +1,7 @@
 function clockInJS() {
-    // hook div with id "clock" 
+
+
+  // hook div with id "clock" 
     let clock = document.querySelector("#clock");
     
     // init object with date and time
