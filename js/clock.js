@@ -1,6 +1,4 @@
 function clockInJS() {
-
-
   // hook div with id "clock" 
     let clock = document.querySelector("#clock");
     
