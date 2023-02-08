@@ -1,0 +1,33 @@
+hr {
+  padding: 0;
+  height: 140px;
+}
+
+.nav__head {
+  font-weight: normal;
+  font-size: 15pt;
+  text-align: center;
+  border-bottom: 2px solid #ecebe9;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.nav__item {
+  padding: 5px 0 0 15px;
+  display: flex;
+}
+
+.nav__item-link {
+  text-decoration: none;
+  color: #ecebe9;
+}
+
+.nav__item-link:hover {
+  color: gray;
+}
+
+.nav__item-icon {
+  padding: 0 5px 0 0;
+  max-width: 23px;
+  min-width: 18px;
+}
