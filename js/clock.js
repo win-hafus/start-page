@@ -9,15 +9,15 @@ function clockInJS() {
     let h = time.getHours();
     let m = time.getMinutes();
     let s = time.getSeconds();
-    let am_pm = "AM"
+    let am_pm = "AM";
 
     // logic for change AM to PM
     if (h > 12) {
         h -= 12;
-        am_pm = "PM"
+        am_pm = "PM";
     } if (h == 0) {
         h = 12;
-        am_pm = "AM"
+        am_pm = "AM";
     }
 
     // add zero befor number if {variable} < 12
@@ -29,8 +29,9 @@ function clockInJS() {
     let text = `${h}:${m}:${s} ${am_pm}`;
     
     // ouput time to div
-    clock.innerHTML = text
+    console.log(text);
+    clock.innerHTML = text;
 };
 
 // repeat function 1 time per second
-setInterval(clockInJS, 1000)
+setInterval(clockInJS, 1000);
