@@ -18,6 +18,8 @@ hr {
 }
 
 .nav__item-link {
+	display: flex;
+	align-items: center;
   text-decoration: none;
   color: #ecebe9;
 }
@@ -26,8 +28,7 @@ hr {
   color: gray;
 }
 
-.nav__item-icon {
-  padding: 0 5px 0 0;
-  max-width: 23px;
-  min-width: 18px;
+.icon {
+	font-size: 25px;
+	margin: 2px 8px 2px 2px;
 }

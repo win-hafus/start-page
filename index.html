@@ -5,59 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/navigate.css">
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/regular-icons.css">
   <title>Hub</title>
 </head>
 <body>
   <main class="container">
     <h1 id="clock">00:00:00 PM</h1>
     <nav class="nav">
-      <article class="fisrt">
+      <section class="fisrt">
         <h2 class="nav__head">Search engines</h2>
-        <section class="nav__item">
-          <img class="nav__item-icon" src="assets/duckduckgo.ico">
-          <a class="nav__item-link" href="https://start.duckduckgo.com">DuckDuckGo</a>
-        </section>
-        <section class="nav__item">
-          <img class="nav__item-icon" src="assets/google_chrome.ico">
-          <a class="nav__item-link" href="https://google.com">Google</a>
-        </section>
-        <section class="nav__item">
-          <img class="nav__item-icon" src="assets/yandex.ico"> 
-          <a class="nav__item-link" href="https://ya.ru">Yandex</a>
-        </section>
-      </article><hr>
+        <article class="nav__item">
+          <a class="nav__item-link" href="https://start.duckduckgo.com">
+			  <i class="fa-solid fa-magnifying-glass icon"></i>DuckDuckGo</a>
+        </article>
+        <article class="nav__item">
+          <a class="nav__item-link" href="https://google.com">
+			<i class="fa-brands fa-google icon"></i>Google</a>
+        </article>
+        <article class="nav__item">
+		  <a class="nav__item-link" href="https://ya.ru">
+			<i class="fa-brands fa-y icon"></i>Yandex</a>
+        </article>
+      </section><hr>
 
-      <article class="second">
+      <section class="second">
         <h2 class="nav__head">Important Links</h2>  
-        <section class="nav__item">
-          <img class="nav__item-icon" src="assets/academy.ico">
-          <a class="nav__item-link" href="https://kod.mob-edu.ru/login/index.php">Academy</a>
-        </section>
-        <section class="nav__item">
-          <img class="nav__item-icon" src="assets/leaderid.ico">
-          <a class="nav__item-link" href="https://leader-id.ru/login?ref=2035">LeaderID</a>
-        </section>
-        <section class="nav__item">
-          <img class="nav__item-icon" src="assets/sgo.ico">
-          <a class="nav__item-link" href="https://sgo.rso23.ru/angular/school/announcements/">SGO</a>
-        </section>
-      </article><hr>
+        <article class="nav__item">
+          <a class="nav__item-link" href="https://kod.mob-edu.ru/login/index.php">
+			<i class="fa-solid fa-graduation-cap icon"></i>Academy</a>
+        </article>
+        <article class="nav__item">
+          <a class="nav__item-link" href="https://leader-id.ru/login?ref=2035">
+			  <i class="fa-solid fa-address-book icon"></i>LeaderID</a>
+        </article>
+        <article class="nav__item">
+          <a class="nav__item-link" href="https://sgo.rso23.ru/angular/school/announcements/">
+			<i class="fa-solid fa-chalkboard-user icon"></i>SGO</a>
+        </article>
+      </section><hr>
 
-      <article class="third">
+      <section class="third">
         <h2 class="nav__head">Media services</h2>
-        <section class="nav__item">
-          <img class="nav__item-icon" src="assets/youtube.ico">
-          <a class="nav__item-link" href="https://www.youtube.com">YouTube</a>
-        </section>
-        <section class="nav__item">
-          <img class="nav__item-icon" src="assets/music.ico">
-          <a class="nav__item-link" href="https://music.youtube.com">Music</a>
-        </section>
-        <section class="nav__item">
-          <img class="nav__item-icon" src="assets/twitch.ico">
-          <a class="nav__item-link" href="https://www.twitch.tv">Twitch</a>
-        </section>
-      </article>
+        <article class="nav__item">
+          <a class="nav__item-link" href="https://www.youtube.com">
+			  <i class="fa-brands fa-youtube icon"></i>YouTube</a>
+        </article>
+        <article class="nav__item">
+          <a class="nav__item-link" href="https://music.youtube.com">
+			<i class="fa-solid fa-music icon"></i>Music</a>
+        </article>
+        <article class="nav__item">
+			<a class="nav__item-link" href="https://www.twitch.tv">
+				<i class="fa-brands fa-twitch icon"></i>Twitch</a>
+        </article>
+      </section>
     </nav>
   </main>
   <script src="js/clock.js"></script>

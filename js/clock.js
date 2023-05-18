@@ -29,7 +29,6 @@ function clockInJS() {
     let text = `${h}:${m}:${s} ${am_pm}`;
     
     // ouput time to div
-    console.log(text);
     clock.innerHTML = text;
 };
 
